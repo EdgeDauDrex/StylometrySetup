@@ -6,6 +6,6 @@ chmod 775 part2Debian.sh
 ./part2Debian.sh
 chmod 775 part3Debian.sh
 ./part3Debian.sh
-chmod 775 part4.sh
-./part4.sh
+chmod 775 part4Debian.sh
+./part4Debian.sh
 echo done installing

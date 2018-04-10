@@ -6,6 +6,6 @@ chmod 775 part2RPM.sh
 ./part2RPM.sh
 chmod 775 part3RPM.sh
 ./part3RPM.sh
-chmod 775 part4.sh
-./part4.sh
+chmod 775 part4RPM.sh
+./part4RPM.sh
 echo done installing
