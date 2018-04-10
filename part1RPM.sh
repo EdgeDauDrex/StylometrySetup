@@ -15,8 +15,10 @@ wget https://pypi.python.org/packages/d0/5b/ce38fbd03cd645ab4f121e7df70964a8baea
 tar xfzv py2neo-2.0.9.tar.gz
 cd py2neo-2.0.9
 sudo python2 setup.py install
-wget https://github.com/fabsx00/python-joern/archive/0.3.1.tar.gz
-tar xfzv 0.3.1.tar.gz
-cd python-joern-0.3.1
+#wget https://github.com/fabsx00/python-joern/archive/0.3.1.tar.gz
+#tar xfzv 0.3.1.tar.gz
+#cd python-joern-0.3.1
+git clone https://github.com/EdgeDauDrex/python-joern.git
+cd python-joern
 sudo python2 setup.py install
 echo part 1: downloading joern done
