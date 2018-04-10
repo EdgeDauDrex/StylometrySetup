@@ -10,7 +10,7 @@ ant
 # ~/.bashrc
 alias joern='java -jar $JOERN/bin/joern.jar'
 ant tools
-sudo apt-get install python-setuptools python-dev
+sudo yum install python-setuptools python-dev
 wget https://github.com/fabsx00/python-joern/archive/0.3.1.tar.gz
 tar xfzv 0.3.1.tar.gz
 cd python-joern-0.3.1
