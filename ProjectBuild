@@ -1,0 +1,9 @@
+#!/bin/bash
+echo starting to install stylometry project
+chmod +x part1.sh
+./part1.sh
+chmod +x part2.sh
+./part2.sh
+chmod +x part3.sh
+./part3.sh
+echo done installing
