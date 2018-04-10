@@ -1,9 +1,9 @@
 #!/bin/bash
 echo starting to install stylometry project
-chmod +x part1Debian.sh
-./part1.sh
-chmod +x part2Debian.sh
-./part2.sh
-chmod +x part3Debian.sh
-./part3.sh
+chmod 775 part1Debian.sh
+./part1Debian.sh
+chmod 775 part2Debian.sh
+./part2Debian.sh
+chmod 775 part3Debian.sh
+./part3Debian.sh
 echo done installing
