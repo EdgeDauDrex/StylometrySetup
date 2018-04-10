@@ -11,5 +11,5 @@ echo downloading neo4j
 #EOF'
 #sudo yum install neo4j-2.1.5
 wget https://neo4j.com/artifact.php?name=neo4j-community-2.1.5-unix.tar.gz
-tar artifact.php?name=neo4j-community-2.1.5-unix.tar.gz
+tar xfzv artifact.php?name=neo4j-community-2.1.5-unix.tar.gz
 echo part 2: installing neo4j end
