@@ -10,6 +10,7 @@ ant
 # ~/.bashrc
 alias joern='java -jar $JOERN/bin/joern.jar'
 ant tools
+sudo yum install python27
 sudo yum install python-setuptools python-devel
 wget https://pypi.python.org/packages/d0/5b/ce38fbd03cd645ab4f121e7df70964a8baeab5cbbabf22e9ed8abfa1aa17/py2neo-2.0.9.tar.gz
 tar xfzv py2neo-2.0.9.tar.gz
