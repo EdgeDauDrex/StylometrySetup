@@ -10,6 +10,6 @@ echo pygraphviz installed
 git clone https://github.com/fabsx00/joern-tools
 cd joern-tools
 sudo python27 setup.py install
-echo veryify correct install by :
+echo verify correct install by :
 joern-lookup
 echo ending joern tools install
