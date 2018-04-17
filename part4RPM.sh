@@ -1,4 +1,10 @@
 #!/bin/bash
+echo Aviel93
+echo Aviel93
+echo Aviel93
+echo Aviel93
+echo Aviel93
+echo Aviel93
 echo starting to install joern tools
 sudo yum install graphviz graphviz-devel pkgconfig
 echo installing pygraphviz
