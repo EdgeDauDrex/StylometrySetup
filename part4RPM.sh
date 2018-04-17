@@ -23,5 +23,5 @@ git clone https://github.com/fabsx00/joern-tools.git >> downloadReport.txt
 cd joern-tools
 sudo python27 setup.py install >> downloadReport.txt
 echo verify correct install by :
-joern-lookup >> downloadReport.txt
+joern-lookup
 echo ending joern tools install
