@@ -1,6 +1,7 @@
 #!/bin/bash
 echo part 1: downloading Joern start
 echo building joern
+sudo apt-get install ant
 wget https://github.com/fabsx00/joern/archive/0.3.1.tar.gz
 tar xfzv 0.3.1.tar.gz
 cd joern-0.3.1
