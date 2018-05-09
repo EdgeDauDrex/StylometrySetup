@@ -13,9 +13,9 @@ ant
 alias joern='java -jar $JOERN/bin/joern.jar' 
 #ant tools >> downloadReport.txt
 ant tools
-sudo yum install python27 >> downloadReport.txt
-sudo yum install python-setuptools python-devel >> downloadReport.txt
-sudo yum install python27-devel python27-setuptools >> downloadReport.txt
+sudo yum install python27
+sudo yum install python-setuptools python-devel
+sudo yum install python27-devel python27-setuptools
 #sudo yum install python-devel.x86_64
 wget https://files.pythonhosted.org/packages/d0/5b/ce38fbd03cd645ab4f121e7df70964a8baeab5cbbabf22e9ed8abfa1aa17/py2neo-2.0.9.tar.gz >> downloadReport.txt
 #wget https://pypi.python.org/packages/d0/5b/ce38fbd03cd645ab4f121e7df70964a8baeab5cbbabf22e9ed8abfa1aa17/py2neo-2.0.9.tar.gz >> downloadReport.txt
