@@ -10,7 +10,7 @@ echo starting to install joern tools
 #sudo yum repolist
 #sudo yum install dpkg dpkg-devel dpkg-dev
 #sudo yum install gcc
-sudo yum install pkgconfig graphviz graphviz-devel libgraphviz libgraphviz-devel >> downloadReport.txt
+sudo yum install pkgconfig graphviz graphviz-devel graphviz-devel.x86_64 libgraphviz libgraphviz-devel >> downloadReport.txt
 echo installing pygraphviz
 #wget https://pypi.python.org/packages/25/b1/e44c51b47054ad88aadbe9edcf344bf9b3c61d2d6d15719180ee4d130bcd/pygraphviz-1.4rc1.tar.gz >> downloadReport.txt
 #tar xfzv pygraphviz-1.4rc1.tar.gz >> downloadReport.txt
