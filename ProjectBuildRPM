@@ -8,4 +8,6 @@ chmod 775 part3RPM.sh
 ./part3RPM.sh
 chmod 775 part4RPM.sh
 ./part4RPM.sh
+sudo cp CodeStylometry-missing-joern-tools-files/steps/featureExtraction.groovy /usr/local/lib/python2.7/site-packages/joerntools-0.1-py2.7.egg/joerntools/steps
+sudo cp CodeStylometry-missing-joern-tools-files/steps/featureExtraction.groovy /usr/local/lib/python2.7/dist-packages/joerntools-0.1-py2.7.egg/joerntools/steps
 echo done installing
