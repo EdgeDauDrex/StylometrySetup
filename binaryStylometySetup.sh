@@ -1,5 +1,6 @@
 #!/bin/bash
 git clone https://github.com/radare/radare2
+git clone https://github.com/calaylin/bda.git
 cd radare2
 sys/install.sh   # just run this script to update r2 from git
 cd ..
