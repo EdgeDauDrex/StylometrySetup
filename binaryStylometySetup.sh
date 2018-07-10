@@ -1,11 +1,17 @@
 #!/bin/bash
-git clone https://github.com/radare/radare2
-git clone https://github.com/calaylin/bda.git
+git clone https://github.com/Kitware/CMake.git
+cd CMake
+./bootstrap
+make
+make install
+cd ..
+git clone https://github.com/radare/radare2.git
 cd radare2
 sys/install.sh   # just run this script to update r2 from git
 cd ..
+git clone https://github.com/calaylin/bda.git
 wget https://services.gradle.org/distributions/gradle-4.8.1-bin.zip?_ga=2.77067735.335273354.1529975705-1487338249.1529975705
-mkdir /opt/gradle
+sudo mkdir /opt/gradle#
 unzip -d /opt/gradle gradle-4.8.1-bin.zip
 export PATH=$PATH:/opt/gradle/gradle-4.8.1/bin
 wget http://orientdb.com/download.php?email=unknown@unknown.com&file=orientdb-community-2.1.5.tar.gz
