@@ -7,7 +7,7 @@ make install
 cd ..
 git clone https://github.com/radare/radare2.git
 cd radare2
-sys/install.sh   # just run this script to update r2 from git
+sys/install.sh
 cd ..
 git clone https://github.com/calaylin/bda.git
 wget https://services.gradle.org/distributions/gradle-4.8.1-bin.zip?_ga=2.77067735.335273354.1529975705-1487338249.1529975705
